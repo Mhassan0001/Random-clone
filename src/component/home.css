@@ -1,0 +1,72 @@
+.heading{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.homeli{
+
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    color: rgb(81, 76, 76);
+
+}
+
+
+.home{
+    height: 47rem;
+    display: grid;
+    grid-template-columns: 1rem 38rem auto 1rem;
+    /* background-color: blue; */
+}
+
+.sizeh{
+    height: 30rem;
+}
+
+.imgh{
+    grid-column: 3;
+    display: grid;
+    place-items: start;
+}
+
+
+.all{
+    grid-column: 2;
+}
+
+
+.firh{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.homebtn{
+    cursor: pointer;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+border-style: solid;
+    background-color: white;
+border-color: rgb(0, 115, 255);
+width: 14rem;
+height: 3.4rem;
+font-size: 1.1rem;
+font-weight: 600;
+letter-spacing: 1px;
+/* box-shadow: 10px 10px 10px 10px gray; */
+}
+
+
+
+
+.pading{
+ padding-right: 10px;   
+ 
+}
+

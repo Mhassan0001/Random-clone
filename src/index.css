@@ -1,0 +1,117 @@
+*{
+    padding: 0  ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nv{
+    display: grid;
+
+    grid-template-columns: 2rem 11rem 14rem auto ;
+    /* background-color: blueviolet; */
+    height: 9rem;
+}
+
+.logo{
+    grid-column: 2;
+    display: grid;
+place-items:  center;
+
+   
+}
+
+.size{
+  
+    display: grid;
+    place-items: center;
+    height: 5.5rem;
+}
+
+
+.item{
+    grid-column: 4;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 9rem 10rem 12rem 13rem 7rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.cap{
+    cursor: pointer;
+    text-transform: capitalize;
+    color:  rgb(250, 250, 250);
+    color:rgb(0, 115, 255) ;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pading1{
+    padding-left: 10px;
+    padding-right: 5px;
+    }
+
+
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    direction: row;
+    justify-content: start;
+    align-items: center;
+background-color: white;
+border-color: rgb(0, 115, 255);
+width: 11rem;
+height: 3.3rem;
+font-size: 1.1rem;
+font-weight: 500;
+letter-spacing: 1px;
+cursor: pointer;
+border-style: solid;
+
+}
+
+
+.reg{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: rgb(0, 115, 255);
+    border: none;
+    color: aliceblue;
+    width: 12rem;
+    height: 3.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.iconl{
+    cursor: pointer;
+ font-size: x-large;
+ color:  rgb(0, 115, 255);
+}
+
+.reg:hover{
+    box-shadow: 0px 0px 15px 1px gray;
+}
+
+
+.login:hover{
+    box-shadow: 0px 0px 15px 1px gray;
+}
+
+.cap:hover{
+    color: rgb(0, 26, 255);
+}
+
+.homebtn:hover{
+    box-shadow: 0px 0px 15px 1px gray;
+}
+
+.lastbtn:hover{
+    box-shadow: 0px 0px 15px 1px gray;
+}
